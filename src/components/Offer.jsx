@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Offer() {
   return (
-    <div className='bg-black text-white py-32 px-6 gap-10 justify-evenly flex flex-col'>
+    <div className='bg-black text-white py-32 px-6  md:px-24 gap-10 justify-evenly flex flex-col'>
       <p className='text-2xl font-bold text-center'>
         HOW DO WE DELIVER YOUR PACKGE
       </p>

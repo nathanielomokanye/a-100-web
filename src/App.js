@@ -8,6 +8,8 @@ import {
   Testimonials,
   FAQ,
   Connect,
+  Contact,
+  Footer,
 } from "./components";
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
       <Testimonials />
       <FAQ />
       <Connect />
+      <Contact />
+      <Footer />
     </>
   );
 }

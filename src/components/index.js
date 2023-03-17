@@ -5,3 +5,5 @@ export { default as Offer } from "./Offer";
 export { default as Testimonials } from "./Testimonials";
 export { default as FAQ } from "./FAQ";
 export { default as Connect } from "./Connect";
+export { default as Contact } from "./Contact";
+export { default as Footer } from "./Footer";
