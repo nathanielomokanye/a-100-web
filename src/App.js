@@ -1,8 +1,16 @@
-import React from 'react';
-import { Home } from './pages';
-import { NavBar, MarQuee, Services, Offer, Testimonials } from './components';
+import React from "react";
+import { Home } from "./pages";
+import {
+  NavBar,
+  MarQuee,
+  Services,
+  Offer,
+  Testimonials,
+  FAQ,
+  Connect,
+} from "./components";
 
-function App () {
+function App() {
   return (
     <>
       <NavBar />
@@ -11,6 +19,8 @@ function App () {
       <Services />
       <Offer />
       <Testimonials />
+      <FAQ />
+      <Connect />
     </>
   );
 }
