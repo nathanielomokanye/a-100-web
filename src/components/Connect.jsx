@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
-export default function Connect() {
+export default function Connect () {
   return (
     <div className='px-6 py-32  w-full'>
       <div
-        style={{ backgroundImage: "url(/assets/connect.png)" }}
+        style={{ backgroundImage: 'url(/assets/connect.png)' }}
         className='bg-cover bg-no-repeat w-full px-6 py-10'
       >
         <div>
@@ -16,8 +16,8 @@ export default function Connect() {
             reiciendis rerum?
           </p>
         </div>
-        <div>
-          <input type='text' name='send' placeholder='Enter Email Address' />
+        <div className='bg-white justify-between'>
+          <input type='text' name='send' placeholder='Enter Email Address' className='border-0' />
           <button>Send</button>
         </div>
       </div>
