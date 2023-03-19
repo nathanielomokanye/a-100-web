@@ -15,7 +15,7 @@ export default function Home () {
           <img
             className='w-16 h-16 md:w-32 md:h-32'
             alt='Call CTA'
-            src='/assets/call.svg'
+            src='assets/call.svg'
           />
         </a>
       </div>
