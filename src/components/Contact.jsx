@@ -1,9 +1,9 @@
-import React from "react";
-import { BsFillTelephoneFill } from "react-icons/bs";
-import { IoLocationSharp } from "react-icons/io5";
-import { MdEmail } from "react-icons/md";
+import React from 'react';
+import { BsFillTelephoneFill } from 'react-icons/bs';
+import { IoLocationSharp } from 'react-icons/io5';
+import { MdEmail } from 'react-icons/md';
 
-export default function Contact() {
+export default function Contact () {
   return (
     <div className='py-32 px-6 md:px-24 items-center text-center'>
       <div className='mb-10'>
@@ -13,15 +13,15 @@ export default function Contact() {
 
       <div className='flex flex-wrap gap-10 items-center justify-center mb-20'>
         <div className='flex items-center gap-3 '>
-          <BsFillTelephoneFill size={24} color={"#0066FF"} />
+          <BsFillTelephoneFill size={24} color='#0066FF' />
           <p>+123-456-7890</p>
         </div>
         <div className='flex items-center gap-3'>
-          <IoLocationSharp size={24} color={"#0066FF"} />
+          <IoLocationSharp size={24} color='#0066FF' />
           <p>46 Blair Court, Slater, MO 65349</p>
         </div>
         <div className='flex items-center gap-3'>
-          <MdEmail size={24} color={"#0066FF"} />
+          <MdEmail size={24} color='#0066FF' />
           <p>A100@gmail.com</p>
         </div>
       </div>
@@ -33,7 +33,7 @@ export default function Contact() {
         allowfullscreen=''
         loading='lazy'
         referrerpolicy='no-referrer-when-downgrade'
-      ></iframe>
+      />
     </div>
   );
 }

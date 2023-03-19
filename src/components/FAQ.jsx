@@ -1,23 +1,23 @@
-import React from "react";
-import { Accordion } from "flowbite-react";
+import React from 'react';
+import { Accordion } from 'flowbite-react';
 
-export default function FAQ() {
+export default function FAQ () {
   const Faqs = [
     {
-      title: "Will i ever get bitches",
+      title: 'How long does it take to schedule a pickup?',
       answer:
-        "No nigga, you can’t get any bitches cuz you’re a bitch yourself, negative and nagetive don’t attract. Think nigga, thnk",
+        "It depends on what county you live in, but it's between a 30 minute to 2 hour trip."
     },
     {
-      title: "Will i ever get bitches",
+      title: 'How long does it take to schedule a pickup?',
       answer:
-        "No nigga, you can’t get any bitches cuz you’re a bitch yourself, negative and nagetive don’t attract. Think nigga, thnk",
+        "It depends on what county you live in, but it's between a 30 minute to 2 hour trip."
     },
     {
-      title: "Will i ever get bitches",
+      title: 'How long does it take to schedule a pickup?',
       answer:
-        "No nigga, you can’t get any bitches cuz you’re a bitch yourself, negative and nagetive don’t attract. Think nigga, thnk",
-    },
+        "It depends on what county you live in, but it's between a 30 minute to 2 hour trip."
+    }
   ];
 
   return (
