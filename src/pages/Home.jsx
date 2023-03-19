@@ -20,7 +20,7 @@ export default function Home () {
         </a>
       </div>
       <div
-        style={{ backgroundImage: 'assets/bg.svg' }}
+        style={{ backgroundImage: 'url(assets/bg.svg)' }}
         className='w-full mt-10 h-full self-start flex justify-center'
       >
         <img
