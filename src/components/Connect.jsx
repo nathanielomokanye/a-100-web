@@ -4,7 +4,7 @@ export default function Connect () {
   return (
     <div className='px-6 py-32 md:px-24 w-full'>
       <div
-        style={{ backgroundImage: 'url(/assets/connect.png)' }}
+        style={{ backgroundImage: 'assets/connect.png' }}
         className='bg-cover bg-no-repeat w-full px-6 py-10 md:px-12 md:py-20'
       >
         <div className='md:w-1/2 w-full mb-10'>

@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-export default function Home() {
+export default function Home () {
   return (
     <div className='w-fulL flex md:pt-40 pt-28 h-screen overflow-hidden flex-col'>
       <div className='flex md:justify-between md:flex-row flex-col mt-10 px-6 md:px-16'>
@@ -20,13 +20,13 @@ export default function Home() {
         </a>
       </div>
       <div
-        style={{ backgroundImage: "/assets/bg.svg" }}
+        style={{ backgroundImage: 'assets/bg.svg' }}
         className='w-full mt-10 h-full self-start flex justify-center'
       >
         <img
           alt='Truck'
           className='md:w-11/12 w-full'
-          src='/assets/truck-1.svg'
+          src='assets/truck-1.svg'
         />
       </div>
     </div>

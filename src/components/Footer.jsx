@@ -1,19 +1,19 @@
-import React from "react";
+import React from 'react';
 import {
   AiFillFacebook,
   AiFillInstagram,
-  AiOutlineTwitter,
-} from "react-icons/ai";
+  AiOutlineTwitter
+} from 'react-icons/ai';
 
-export default function Footer() {
+export default function Footer () {
   return (
     <div className='px-6 pt-32 pb-10 md:px-24 bg-black text-white flex justify-between flex-col'>
       <div className='flex flex-wrap items-center justify-between'>
-        <img src='/assets/logo.svg' alt='' />
+        <img src='assets/logo.svg' alt='' />
         <div className='flex items-end justify-center gap-6'>
-          <AiFillFacebook size={24} color={"white"} />
-          <AiFillInstagram size={24} color={"white"} />
-          <AiOutlineTwitter size={24} color={"white"} />
+          <AiFillFacebook size={24} color='white' />
+          <AiFillInstagram size={24} color='white' />
+          <AiOutlineTwitter size={24} color='white' />
         </div>
       </div>
 

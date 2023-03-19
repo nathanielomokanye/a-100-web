@@ -1,17 +1,17 @@
-import React from "react";
-import { Slide } from "react-slideshow-image";
-import "react-slideshow-image/dist/styles.css";
+import React from 'react';
+import { Slide } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css';
 
-export default function Testimonials() {
+export default function Testimonials () {
   const testimonials = [
     {
-      name: "Akinloye Omokanye",
-      title: "CEO of Dynamic Dimensions",
+      name: 'Akinloye Omokanye',
+      title: 'CEO of Dynamic Dimensions',
       description:
-        "Partnering with A100 has been a fruitful and effective camaraderie. They take their work seriously and have the customer as their upmost concern.",
+        'Partnering with A100 has been a fruitful and effective camaraderie. They take their work seriously and have the customer as their upmost concern.',
       image:
-        "https://i.postimg.cc/RFCkb0qt/Profile-avatar-placeholder-large.png",
-    },
+        'https://i.postimg.cc/RFCkb0qt/Profile-avatar-placeholder-large.png'
+    }
   ];
   return (
     <div className='flex flex-col py-32 px-6 md:px-24 items-center'>

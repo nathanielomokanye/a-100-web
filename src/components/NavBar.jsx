@@ -1,7 +1,7 @@
-import React from "react";
-import { Navbar, Button } from "flowbite-react";
+import React from 'react';
+import { Navbar, Button } from 'flowbite-react';
 
-export default function NavBar() {
+export default function NavBar () {
   return (
     <Navbar fluid rounded className='z-20 md:px-16 fixed w-full py-4'>
       <Navbar.Brand href='https://flowbite.com/'>
