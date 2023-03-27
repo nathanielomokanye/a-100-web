@@ -18,42 +18,47 @@ export default function Footer () {
       </div>
 
       <div className='flex items-center justify-between flex-wrap mt-16'>
-        <div className='mb-10 md:w-1/2'>
-          <h1>Address</h1>
+        <div className='mb-10 gap-3 flex flex-col md:w-1/2'>
+          <h1>A100 Transporter</h1>
           <p>
-            Sorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-            turpis molestie, dictum est a, mattis tellus
+            1234 Transporter Lane, City, State, ZIP
+          </p>
+          <p>
+            Phone: (555) 123-4567
+          </p>
+          <p>
+            Email: info@a100transporter.com
           </p>
         </div>
 
         <div className='flex items-center md:justify-end justify-center gap-10 flex-col md:flex-row md:w-1/2'>
           <ul className='flex flex-col gap-6'>
             <li>
-              <a href='/home'>Home</a>
+              <a href='#home'>Home</a>
             </li>
             <li>
-              <a href='/abour'>About</a>
+              <a href='#about'>About</a>
             </li>
             <li>
-              <a href='/testimonials'>Testimonials</a>
+              <a href='#testimonials'>Testimonials</a>
             </li>
             <li>
-              <a href='/contact'>Contact</a>
+              <a href='#contact'>Contact</a>
             </li>
           </ul>
 
           <ul className='flex flex-col gap-6'>
             <li>
-              <a href='/faq'>FAQ</a>
+              <a href='#faq'>FAQ</a>
             </li>
             <li>
-              <a href='/services'>Services</a>
+              <a href='#services'>Services</a>
             </li>
             <li>
-              <a href='/support'>Support</a>
+              <a href='#support'>Support</a>
             </li>
             <li>
-              <a href='/privacy'>Privacy Policy</a>
+              <a href='#privacy'>Privacy Policy</a>
             </li>
           </ul>
         </div>

@@ -5,10 +5,10 @@ import { MdEmail } from 'react-icons/md';
 
 export default function Contact () {
   return (
-    <div className='py-32 px-6 md:px-24 items-center text-center'>
+    <div id='contact' className='py-32 px-6 md:px-24 items-center text-center'>
       <div className='mb-10'>
         <h1 className='font-bold text-2xl mb-4'>CONTACT US</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>If you have any questions, concerns, or would like to request a quote, feel free to reach out to us directly.</p>
       </div>
 
       <div className='flex flex-wrap gap-10 items-center justify-center mb-20'>

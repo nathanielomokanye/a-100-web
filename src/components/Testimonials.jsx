@@ -8,13 +8,21 @@ export default function Testimonials () {
       name: 'Akinloye Omokanye',
       title: 'CEO of Dynamic Dimensions',
       description:
-        'Partnering with A100 has been a fruitful and effective camaraderie. They take their work seriously and have the customer as their upmost concern.',
+        'Working with A100 Transporter has been a game changer for our business. Their professionalism, attention to detail, and commitment to timely deliveries have allowed us to focus on our core operations while knowing that our logistics needs are in good hands.',
+      image:
+        'https://i.postimg.cc/RFCkb0qt/Profile-avatar-placeholder-large.png'
+    },
+    {
+      name: 'John Doe',
+      title: 'Satisfied Customer',
+      description:
+        'I recently hired A100 Transporter to help me move some valuable and fragile items to my new home. From the very beginning, their team was incredibly professional, friendly, and attentive to my concerns. They took the time to carefully pack and secure my belongings, ensuring that everything arrived at my new place in perfect condition.',
       image:
         'https://i.postimg.cc/RFCkb0qt/Profile-avatar-placeholder-large.png'
     }
   ];
   return (
-    <div className='flex flex-col py-32 px-6 md:px-24 items-center'>
+    <div id='#testimonials' className='flex flex-col py-32 px-6 md:px-24 items-center'>
       <p className='font-bold text-2xl mb-20'>TESTIMONIALS</p>
       <div className='w-full bg-[#0642DA] py-6 px-8 md:py-12 md:px-16 text-white'>
         <Slide arrows={false} infinite>
