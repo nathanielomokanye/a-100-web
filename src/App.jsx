@@ -1,5 +1,7 @@
-import React from "react";
-import { Home } from "./pages";
+import React from 'react';
+import { HashRouter, Routes, Route } from 'react-router-dom';
+
+import { Home } from './pages';
 import {
   NavBar,
   MarQuee,
@@ -9,10 +11,10 @@ import {
   FAQ,
   Connect,
   Contact,
-  Footer,
-} from "./components";
+  Footer
+} from './components';
 
-function App() {
+const Site = () => {
   return (
     <>
       <NavBar />
@@ -26,6 +28,16 @@ function App() {
       <Contact />
       <Footer />
     </>
+  );
+};
+
+function App () {
+  return (
+    <HashRouter>
+      <Routes>
+        <Route path='/' element={<Site />} />
+      </Routes>
+    </HashRouter>
   );
 }
 
