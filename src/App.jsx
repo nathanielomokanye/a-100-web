@@ -35,7 +35,7 @@ function App () {
   return (
     <HashRouter>
       <Routes>
-        <Route path='/' element={<Site />} />
+        <Route path='' element={<Site />} />
       </Routes>
     </HashRouter>
   );
