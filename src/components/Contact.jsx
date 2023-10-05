@@ -14,7 +14,7 @@ export default function Contact () {
       <div className='flex flex-wrap gap-10 items-center justify-center mb-20'>
         <div className='flex items-center gap-3 '>
           <BsFillTelephoneFill size={24} color='#0066FF' />
-          <p>+123-456-7890</p>
+          <p>(720) 518-1669</p>
         </div>
         <div className='flex items-center gap-3'>
           <IoLocationSharp size={24} color='#0066FF' />
